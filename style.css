@@ -1,0 +1,29 @@
+body {
+    background-color: #d0e4fe;
+}
+
+#title {
+    max-width:
+}
+
+h1 {
+    color: black;
+    font-size: large;
+    text-align: center;
+}
+    
+h3 {
+    text-align: left;
+    color: midnightblue;
+}
+
+a {
+    text-align: right;
+}
+
+img {
+    max-width: 450px;
+    margin-left: 850px;
+    padding: 40px;
+}
+

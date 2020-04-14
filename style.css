@@ -1,29 +1,65 @@
 body {
-    background-color: #d0e4fe;
+    background-color: white;
+    font-size: 20px;
 }
 
-#title {
-    max-width:
-}
-
-h1 {
+#title, #subtitle {
     color: black;
-    font-size: large;
     text-align: center;
 }
-    
-h3 {
-    text-align: left;
-    color: midnightblue;
+
+#subtitle {
+  padding-bottom: 1rem;
 }
 
-a {
-    text-align: right;
+/* the following is used for floating the image to the right of the screen 
+
+img {
+  float: right;
+  width: 400px;
+  height: 200px;
+} */
+
+
+/*  the following is used for making the first paragraph and image a grid display with the p 1st and the img 2nd*/
+#first-section, #third-section, #fourth-section {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 6rem;
 }
 
 img {
-    max-width: 450px;
-    margin-left: 850px;
-    padding: 40px;
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
 }
 
+h2 {
+  line-height: 1.2
+}
+    
+p {
+    text-align: center;
+    color: black;
+}
+
+#main {
+  margin: 30px 10px;
+  padding: 50px;
+  background: #eee;
+}
+
+#more-info {
+  text-align: center;
+}
+
+@media (max-width:460px) {
+  h1 {
+    font-size: 0.5rem;
+    line-height: 1.2
+  }
+  
+    #main {
+    margin: 0;
+  }
+}
